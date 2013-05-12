@@ -1,2 +1,2 @@
-cv_theme
+theme_cv
 ========
