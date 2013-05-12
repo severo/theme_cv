@@ -1,0 +1,34 @@
+<div class="page">
+
+	<div class="clearfix header">
+		<INCLURE{fond=inclure/entete} />
+	</div><!--.header-->
+    <!--div id="nav">
+        <INCLURE{fond=inclure/barre-nav,env}>
+    </div><!--.nav-->
+	
+	<div class="main">
+		<!--BOUCLE_parent(RUBRIQUES){id_rubrique=#ID_RUBRIQUE}>
+		<a href="#URL_RUBRIQUE" class="seccion inverso">
+			#TITRE
+		</a>
+		</BOUCLE_parent-->
+
+		<div class="wrapper hfeed">
+		<div class="content hentry" id="content">
+			<INCLURE{fond=contenu/#ENV{type},env}>
+		</div><!--.content-->
+		</div><!--.wrapper-->
+	
+	
+		<div class="aside">
+			<INCLURE{fond=navigation/#ENV{type},env}>
+			<!--INCLURE{fond=extra/#ENV{type},env}-->			
+		</div><!--.aside-->
+	</div><!--.main-->
+
+	<div class="footer clearfix">
+		<INCLURE{fond=inclure/pied,env}>
+	</div><!--.footer-->
+
+</div><!--.page-->

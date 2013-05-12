@@ -1,0 +1,42 @@
+article {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.date-ranges {
+	float: left;
+	width: 15%;
+	color: #89867f;
+	font-style: italic;
+}
+.date-ranges .job-start, .date-ranges .job-end {
+	clear: left;
+	float: left;
+	width: 100%;
+	text-align: right;
+}
+.date-ranges .job-start:after {
+	display: block;
+	content: "";
+}
+.date-ranges .job-end:before {
+	content: "– ";
+}
+article hgroup {
+	float: right;
+	width: 80%;
+}
+.job-details {
+	float: right;
+	width: 80%;
+}
+.job-location {
+	font-weight: bold;
+}
+.job-title, .job-title a, .job-title a:visited {
+	color: #ff4d00;
+	background: transparent;
+}
+.job-location, .job-title, .job-details {
+	font-size: 1em;
+}
