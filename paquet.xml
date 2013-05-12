@@ -1,0 +1,17 @@
+<paquet
+	prefix="theme_cv"
+	categorie="theme"
+	version="0.1.0"
+	etat="dev"
+	compatibilite="[3.0.0;3.0.*]"
+>	
+
+	<nom>Thème CV</nom>
+	<!-- Thème Z de CV -->
+
+	<auteur lien="http://www.rednegra.net/cv/">Severo Lipari</auteur>
+
+	<licence>Creative Commons Attribution 2.5</licence>
+
+	<utilise nom="Z" compatibilite="[1.7.0;[" />
+</paquet>
