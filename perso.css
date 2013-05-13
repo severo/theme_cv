@@ -22,6 +22,21 @@ article {
 .date-ranges .job-end:before {
 	content: "– ";
 }
+
+.ligne.date-ranges {
+	float: inherit;
+	width: inherit;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+.ligne.date-ranges .job-start, .ligne.date-ranges .job-end {
+	clear: inherit;
+	float: inherit;
+}
+.ligne.date-ranges .job-start:after {
+	display: inherit;
+}
+
 article hgroup {
 	float: right;
 	width: 80%;
