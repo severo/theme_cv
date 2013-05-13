@@ -11,7 +11,7 @@ body { text-align: center; background: #FFF url(img/background.png); border-top:
 
 .header {}
 .main { padding: 1.5em 0; }
-.footer { clear: both; padding: 1.5em 0 0; border-top: 2px solid; }
+.footer { clear: both; padding: 1.5em 0 0; border-top: 1px solid; }
 
 .wrapper { clear: both; float: left; width: 70%; overflow: hidden; }
 .content { min-height: 350px; }
