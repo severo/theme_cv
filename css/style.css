@@ -10,7 +10,7 @@
 
 a.seccion{display: block;margin-bottom: 1em;padding: 0.5em;padding-left: 1em;font-size: 1.5em;}
 
-a.inverso {color: #262626;background-color: #ffad60;}
+a.inverso {color: #262626;background-color: #ffad60;clear: left;}
 a.inverso:focus,
 a.inverso:hover,
 a.inverso:active { background-color: #c9c6bf; color: #262626; }
