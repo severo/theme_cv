@@ -198,3 +198,15 @@ a.spip_mail:after { display: inline; content: " [" attr(href) "]"; }
 }
 
 /* end */
+.lien_lien {
+    background-position: left center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 20px;
+    text-overflow: ellipsis;
+    vertical-align: text-top;
+    white-space: nowrap;
+}
