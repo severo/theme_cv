@@ -20,7 +20,7 @@ article {
 	content: "";
 }
 .date-ranges .job-end:before {
-	content: "– ";
+	content: " – ";
 }
 
 .ligne.date-ranges {
